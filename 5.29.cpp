@@ -17,8 +17,7 @@ int main(void) {
     while (m!=-1&&n!=-1){
         printf("請輸入兩個數(以空白隔開)："); 
         scanf("%d %d", &m, &n);
-            printf("gcd：%d\n", gcd(m, n));
-            printf("lcm：%d\n", lcm(m, n));
+            printf("最大公倍數：%d\n", lcm(m, n));
         }
     return 0; 
 }
